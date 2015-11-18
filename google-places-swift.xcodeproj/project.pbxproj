@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B082520D1BF6FBDF0087148F /* NetworkResponseDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B082520C1BF6FBDF0087148F /* NetworkResponseDelegate.swift */; };
+		B082520F1BF77CBF0087148F /* GooglePlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = B082520E1BF77CBF0087148F /* GooglePlace.swift */; };
+		B08252161BFA3D0A0087148F /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08252151BFA3D0A0087148F /* AppEnvironment.swift */; };
+		B0A840E21BEDB21000AA4CE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A840E11BEDB21000AA4CE0 /* AppDelegate.swift */; };
+		B0A840E41BEDB21000AA4CE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A840E31BEDB21000AA4CE0 /* ViewController.swift */; };
+		B0A840E91BEDB21000AA4CE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0A840E81BEDB21000AA4CE0 /* Assets.xcassets */; };
+		B0A840EC1BEDB21000AA4CE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A840EA1BEDB21000AA4CE0 /* LaunchScreen.storyboard */; };
+		B0A840F71BEDB45F00AA4CE0 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0A840F61BEDB45F00AA4CE0 /* View.xib */; };
+		B0A840FB1BEDD73D00AA4CE0 /* GooglePlaceAutocomplete.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A840FA1BEDD73D00AA4CE0 /* GooglePlaceAutocomplete.swift */; };
+		B0FFDCCD1BEEFA5100F274C6 /* LoadGoogleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FFDCCC1BEEFA5100F274C6 /* LoadGoogleData.swift */; };
+		B0FFDCCF1BEF07FE00F274C6 /* GooglePlaceDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FFDCCE1BEF07FE00F274C6 /* GooglePlaceDetails.swift */; };
+		B0FFDCD11BEFA9A100F274C6 /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FFDCD01BEFA9A100F274C6 /* Places.swift */; };
+		B0FFDCDA1BF0232E00F274C6 /* PlaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FFDCD81BF0232E00F274C6 /* PlaceTableViewCell.swift */; };
+		B0FFDCDB1BF0232E00F274C6 /* PlaceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0FFDCD91BF0232E00F274C6 /* PlaceTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B082520C1BF6FBDF0087148F /* NetworkResponseDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkResponseDelegate.swift; sourceTree = "<group>"; };
+		B082520E1BF77CBF0087148F /* GooglePlace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GooglePlace.swift; sourceTree = "<group>"; };
+		B08252151BFA3D0A0087148F /* AppEnvironment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
+		B0A840DE1BEDB21000AA4CE0 /* google-places-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "google-places-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0A840E11BEDB21000AA4CE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "google-places-swift/App/AppDelegate.swift"; sourceTree = SOURCE_ROOT; };
+		B0A840E31BEDB21000AA4CE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B0A840E81BEDB21000AA4CE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0A840EB1BEDB21000AA4CE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0A840ED1BEDB21000AA4CE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0A840F61BEDB45F00AA4CE0 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		B0A840FA1BEDD73D00AA4CE0 /* GooglePlaceAutocomplete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GooglePlaceAutocomplete.swift; sourceTree = "<group>"; };
+		B0FFDCCC1BEEFA5100F274C6 /* LoadGoogleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadGoogleData.swift; sourceTree = "<group>"; };
+		B0FFDCCE1BEF07FE00F274C6 /* GooglePlaceDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GooglePlaceDetails.swift; sourceTree = "<group>"; };
+		B0FFDCD01BEFA9A100F274C6 /* Places.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Places.swift; sourceTree = "<group>"; };
+		B0FFDCD81BF0232E00F274C6 /* PlaceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceTableViewCell.swift; sourceTree = "<group>"; };
+		B0FFDCD91BF0232E00F274C6 /* PlaceTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlaceTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0A840DB1BEDB21000AA4CE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B06C03281BFACB4500E2C1B5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B0A840E31BEDB21000AA4CE0 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B08252141BFA3B4A0087148F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B0A840E11BEDB21000AA4CE0 /* AppDelegate.swift */,
+				B08252151BFA3D0A0087148F /* AppEnvironment.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B0A840D51BEDB21000AA4CE0 = {
+			isa = PBXGroup;
+			children = (
+				B0A840E01BEDB21000AA4CE0 /* google-places-swift */,
+				B0A840DF1BEDB21000AA4CE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0A840DF1BEDB21000AA4CE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0A840DE1BEDB21000AA4CE0 /* google-places-swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0A840E01BEDB21000AA4CE0 /* google-places-swift */ = {
+			isa = PBXGroup;
+			children = (
+				B08252141BFA3B4A0087148F /* App */,
+				B0A840F51BEDB3F000AA4CE0 /* Classes */,
+				B0A840F41BEDB3E900AA4CE0 /* Models */,
+				B0A840F31BEDB3D900AA4CE0 /* Views */,
+				B06C03281BFACB4500E2C1B5 /* Controllers */,
+				B0A840E81BEDB21000AA4CE0 /* Assets.xcassets */,
+				B0A840EA1BEDB21000AA4CE0 /* LaunchScreen.storyboard */,
+				B0A840ED1BEDB21000AA4CE0 /* Info.plist */,
+			);
+			path = "google-places-swift";
+			sourceTree = "<group>";
+		};
+		B0A840F31BEDB3D900AA4CE0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B0A840F61BEDB45F00AA4CE0 /* View.xib */,
+				B0FFDCD81BF0232E00F274C6 /* PlaceTableViewCell.swift */,
+				B0FFDCD91BF0232E00F274C6 /* PlaceTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B0A840F41BEDB3E900AA4CE0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B082520E1BF77CBF0087148F /* GooglePlace.swift */,
+				B0A840FA1BEDD73D00AA4CE0 /* GooglePlaceAutocomplete.swift */,
+				B0FFDCCE1BEF07FE00F274C6 /* GooglePlaceDetails.swift */,
+				B0FFDCD01BEFA9A100F274C6 /* Places.swift */,
+				B082520C1BF6FBDF0087148F /* NetworkResponseDelegate.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B0A840F51BEDB3F000AA4CE0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B0FFDCCC1BEEFA5100F274C6 /* LoadGoogleData.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0A840DD1BEDB21000AA4CE0 /* google-places-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0A840F01BEDB21000AA4CE0 /* Build configuration list for PBXNativeTarget "google-places-swift" */;
+			buildPhases = (
+				B0A840DA1BEDB21000AA4CE0 /* Sources */,
+				B0A840DB1BEDB21000AA4CE0 /* Frameworks */,
+				B0A840DC1BEDB21000AA4CE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "google-places-swift";
+			productName = "google-places-swift";
+			productReference = B0A840DE1BEDB21000AA4CE0 /* google-places-swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0A840D61BEDB21000AA4CE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Waynemystir;
+				TargetAttributes = {
+					B0A840DD1BEDB21000AA4CE0 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = B0A840D91BEDB21000AA4CE0 /* Build configuration list for PBXProject "google-places-swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0A840D51BEDB21000AA4CE0;
+			productRefGroup = B0A840DF1BEDB21000AA4CE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0A840DD1BEDB21000AA4CE0 /* google-places-swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0A840DC1BEDB21000AA4CE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0A840EC1BEDB21000AA4CE0 /* LaunchScreen.storyboard in Resources */,
+				B0A840F71BEDB45F00AA4CE0 /* View.xib in Resources */,
+				B0A840E91BEDB21000AA4CE0 /* Assets.xcassets in Resources */,
+				B0FFDCDB1BF0232E00F274C6 /* PlaceTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0A840DA1BEDB21000AA4CE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0A840FB1BEDD73D00AA4CE0 /* GooglePlaceAutocomplete.swift in Sources */,
+				B082520F1BF77CBF0087148F /* GooglePlace.swift in Sources */,
+				B0FFDCDA1BF0232E00F274C6 /* PlaceTableViewCell.swift in Sources */,
+				B0FFDCCD1BEEFA5100F274C6 /* LoadGoogleData.swift in Sources */,
+				B0A840E41BEDB21000AA4CE0 /* ViewController.swift in Sources */,
+				B08252161BFA3D0A0087148F /* AppEnvironment.swift in Sources */,
+				B0A840E21BEDB21000AA4CE0 /* AppDelegate.swift in Sources */,
+				B0FFDCCF1BEF07FE00F274C6 /* GooglePlaceDetails.swift in Sources */,
+				B082520D1BF6FBDF0087148F /* NetworkResponseDelegate.swift in Sources */,
+				B0FFDCD11BEFA9A100F274C6 /* Places.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B0A840EA1BEDB21000AA4CE0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0A840EB1BEDB21000AA4CE0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0A840EE1BEDB21000AA4CE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B0A840EF1BEDB21000AA4CE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0A840F11BEDB21000AA4CE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "google-places-swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "waynemystir.google-places-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B0A840F21BEDB21000AA4CE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "google-places-swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "waynemystir.google-places-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0A840D91BEDB21000AA4CE0 /* Build configuration list for PBXProject "google-places-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0A840EE1BEDB21000AA4CE0 /* Debug */,
+				B0A840EF1BEDB21000AA4CE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0A840F01BEDB21000AA4CE0 /* Build configuration list for PBXNativeTarget "google-places-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0A840F11BEDB21000AA4CE0 /* Debug */,
+				B0A840F21BEDB21000AA4CE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0A840D61BEDB21000AA4CE0 /* Project object */;
+}
